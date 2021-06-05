@@ -3,7 +3,7 @@
 ## Goal: ##
 - Is there a method to roll the dice to get a higher number on average?
 
-### Final Answer: ###
+### My Testing: ###
 Yes it seems, but probably will be called cheating already.
 
 Average is 3.5 for the standard cases.
