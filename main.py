@@ -1,5 +1,6 @@
 from statistics import mean
 
+standard = [[1, 2, 3, 4, 5, 6]]
 # This method attempts to avoid side numbers and only roll 1 axis (4 numbers)
 axes = [[1, 2, 5, 6],
         [1, 3, 4, 6]
@@ -19,6 +20,9 @@ spins = [
     [4, 5, 6]]
 
 print("Number = average value\nList = combination")
+
+for unique in standard:
+    print("%.2f" % mean(unique), unique)
 
 for axis in axes:
     print("%.2f" % mean(axis), axis)
