@@ -19,13 +19,14 @@ spins = [
     [3, 5, 6],
     [4, 5, 6]]
 
+
+def percent(list):
+    for item in list:
+        print("%.2f" % mean(item), item)
+
+
 print("Number = average value\nList = combination")
 
-for unique in standard:
-    print("%.2f" % mean(unique), unique)
-
-for axis in axes:
-    print("%.2f" % mean(axis), axis)
-
-for spin in spins:
-    print("%.2f" % mean(spin), spin)
+percent(standard)
+percent(axes)
+percent(spins)
